@@ -1,0 +1,31 @@
+{
+  "name": "reactnews",
+  "version": "1.0.0",
+  "description": "News Scraper with Mongo, Mongoose, Node, and React (in Theory)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jessmiles04/ReactNews.git"
+  },
+  "keywords": [
+    "react",
+    "news-scraper"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jessmiles04/ReactNews/issues"
+  },
+  "homepage": "https://github.com/jessmiles04/ReactNews#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.1",
+    "express": "^4.15.3",
+    "mongoose": "^4.10.6",
+    "morgan": "^1.8.2",
+    "request": "^2.81.0"
+  }
+}
